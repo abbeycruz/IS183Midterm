@@ -1,9 +1,204 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AbigailDeLaCruz - IS183 Midterm</title>
+    <title>Abigail de la Cruz - IS183 Midterm</title>
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+<style>
+	*
+	{
+		margin:0;
+		padding:0;
+	}
+	body
+	{
+		font-family: 'Inconsolata', monospace;
+		font-size:11px;
+		background-image:url('img/swirl.png');
+		background-attachment: fixed;
+	}
+	.container
+	{
+		width: 65%;
+		height:auto;
+		margin:auto;
+		background-color:white;
+		border-left:1px solid black;
+		border-right:1px solid black;
+		border-bottom:1px solid black;	
+	}
+	.wrapper
+	{
+		width:100%;
+		height:100%;
+	}
+	.logo
+	{
+		width:100%;
+		height:150px;
+		/*background-color:beige;*/
+		background-image:url('./img/mcmxcv.png');
+		background-position:top center; 
+		background-repeat:no-repeat;
+	}
+	.top-nav
+	{
+		width:98%;
+		padding:1%;
+		height:12px;
+		/*background-color:crimson;*/
+		text-align:center;
+	}
+	ul.nav
+	{
+		list-style-type:none;
+	}
+	.link
+	{
+		display:table-cell;
+		width:200px;
+	}
+	aside.side-menu
+	{
+		width:19%;
+		height:auto;
+		padding:.5%;
+		/*background-color:darkcyan;*/
+		float:left;
+	}
+	.side-links
+	{
+		list-style-type:none;
+	}
+	.side-links li
+	{
+		height:20px;
+		padding:5px;
+	}
+	section.main
+	{
+		width:59%;
+		height:auto;
+		padding:.5%;
+		/*background-color:chartreuse;*/
+		float:left;
+	}
+	table.gallery
+	{
+		width:80%;
+		margin:auto;
+		padding:10px;
+	}
+	.gallery img
+	{
+		width:120px;
+		height:120px;
+	}
+	aside.recent
+	{
+		width:19%;
+		height:auto;
+		padding:.5%;
+		/*background-color:darkcyan;*/
+		float:right;
+	}
+	.recent img
+	{
+		width:100%;
+	}
+	footer.copy
+	{
+		clear:both;
+		width:98%;
+		padding:1%;
+		height:10px;
+		/*background-color:coral;*/
+		text-align:center;
+	}
+	a
+	{
+		text-decoration:none;
+		color:#292929;
+	}
+	a:hover
+	{
+		text-decoration:underline;
+	}
+	p
+	{
+		padding:5px;
+	}
+	h1
+	{
+		font-size:20px;
+	}
+	h2
+	{
+		font-size:15px;
+	}
+</style>
 </head>
+
 <body>
-    <!-- html comment -->
+<div class="container">
+	<div class="wrapper">
+		<header class="logo">
+			
+		</header>
+		
+		<nav class="top-nav">
+			<ul class="nav">
+				<li class="link"><a href="#">home</a></li>
+				<li class="link"><a href="#">about us</a></li>
+				<li class="link"><a href="#">our products</a></li>
+				<li class="link"><a href="#">contact us</a></li>
+				<li class="link"><a href="./login.html">log out</a></li>
+			</ul>
+		</nav>
+		
+		<aside class="side-menu">
+			<ul class="side-links">
+				<li><a href="#">home</a></li>
+				<li><a href="#">about us</a></li>
+				<li><a href="#">our products</a></li>
+				<li><a href="#">contact us</a></li>
+				<li><a href="#">log out</a></li>
+			</ul>
+		</aside>
+		
+		<section class="main">
+		<h1> Welcome.</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt, massa vel maximus dapibus, nisl nisl sodales orci, volutpat luctus sapien leo at diam. Praesent fringilla tristique nisi, et gravida risus scelerisque sed. Aliquam at commodo sapien, non mollis diam. Donec a laoreet nibh. Donec malesuada turpis sit amet tempus porta. Vestibulum rhoncus nulla sit amet varius bibendum. Donec est arcu, aliquet nec luctus eu, imperdiet a orci. Curabitur vitae leo vulputate mauris sodales ultricies. Morbi in massa vestibulum tellus imperdiet ornare quis id diam.</p>
+			
+			<table class="gallery">
+				<tr>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg">
+					</td>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg"></td>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg"></td>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg"></td>
+				</tr>
+				<tr>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg"></td>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg"></td>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg"></td>
+					<td><img src="http://image.vsco.co/1/54f15046565f52436504/55b427596a331e017d8b4587/vsco_072515.jpg"></td>
+				</tr>
+			</table>
+		</section>
+		
+		<aside class="recent">
+			<h2>Recent Products</h2>
+			
+			<img src="img/home/sunglasses1.jpg">
+			<img src="img/home/sunglasses2.jpg">
+			<img src="img/home/sunglasses3.jpg">
+		</aside>		
+		<footer class="copy">
+			&copy; ADLC 2017
+		</footer>
+	</div>
+</div>
 </body>
 </html>
